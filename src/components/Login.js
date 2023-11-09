@@ -9,10 +9,12 @@ const Login = () => {
             alt="logo"
             />
         </div>
-        <form className="relative p-12 bg-black">
-            <input type="text" placeholder="email address" className="p-2 m-2"/>
-            <input type="password" placeholder="password" className="p-2 m-2" />
-            <button className="p-2 m-2">Sign in</button>
+        <form className="absolute w-3/12 p-12 bg-black  my-36 mx-auto right-0 left-0 text-white bg-opacity-80">
+            <h1 className="text-xl py-2">Sign in</h1>
+            <input type="text" placeholder="email address" className="p-2 my-2 text-xl w-full text-black " />
+            <input type="password" placeholder="password" className="p-2 my-2 text-xl w-full" />
+            <button className="p-4 my-4 bg-red-700 w-full text-lg">Sign in</button>
+            <p className="text-lg py-2">New to Netflix? Sign up now.</p>
         </form>
         </div>
     );
